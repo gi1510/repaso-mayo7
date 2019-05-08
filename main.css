@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    background-color: aquamarine;
+}
+.box{
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: blue;
+}
