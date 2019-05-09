@@ -11,7 +11,7 @@ main{
     text-align: center;
     background-color: rgba(255, 68, 0, 0.685);
     border: 2px solid black;
-    height: 250px;
+    justify-items: center;
     }
 body{
     margin: 0;
@@ -19,9 +19,11 @@ body{
 }
     @media screen and (max-width: 600px){
     main 
-    {display: flex;
-    flex-flow:  column wrap;
-    background-color:rgb(119, 226, 155);
-    width: 100vh;}
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        background-color:rgb(119, 226, 155);
+        widows: 100%;}
     
     }
